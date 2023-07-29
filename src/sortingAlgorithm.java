@@ -20,7 +20,7 @@ public class sortingAlgorithm {
             array[startLoop] = minValue ;
         }
 
-        for (int i = 0 ; i < array.length ; i++){ // You can also use an enhance for-each loop.
+        for (int i = 0 ; i < array.length ; i++){ // You can use an enhance for-each loop also.
             System.out.print(array[i]+" ");
         }
     }
