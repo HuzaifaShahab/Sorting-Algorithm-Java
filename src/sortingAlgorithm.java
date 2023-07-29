@@ -1,7 +1,7 @@
 public class sortingAlgorithm {
     public static void main(String[] args) {
 
-        System.out.println("Array Sorting Algorithm Concept Catching !");
+        System.out.println("Array Sorting Algorithm-Concept Catching !");
 
         int []array = {9,8,7,4,3,3,2,1} ;   // Initialized An Array.
 
