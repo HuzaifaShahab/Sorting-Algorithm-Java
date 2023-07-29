@@ -10,7 +10,7 @@ public class bubbleSort {
             for (int j = 0 ; j < array.length-index-1 ; j++ ){  // Inner-loop logic - array size decrementing.
 
                 if (array[j] > array[j+1]){
-//                                                 This is Swapping without a third variable.
+                                               // This is Swapping without a third variable.
                     array[j] = array[j]*array[j+1] ;
                     array[j+1] = array[j]/array[j+1] ;
                     array[j] = array[j]/array[j+1] ;
