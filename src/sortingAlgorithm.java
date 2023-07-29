@@ -8,7 +8,7 @@ public class sortingAlgorithm {
         int startLoop , minValue , minIndex ;    // Declared Variables.
         for (startLoop = 0 ; startLoop < array.length-1 ; startLoop++) { // Outer-Loop.
             minIndex = startLoop ;
-            minValue = array[minIndex] ;
+            minValue = array[minIndex] ; // [0] index will got incremented tbt.
 
             for (int index = startLoop + 1 ; index < array.length ; index++) { // Inner-Loop.
                 if (array[index] < minValue){
