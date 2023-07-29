@@ -5,7 +5,7 @@ public class bubbleSort {
 
 //        Bubble Sort Practice Session !
 
-        for (int index = 0 ; index < array.length - 1 ; index++){  // Outer-loop will iterate 5 times.
+        for (int index = 0 ; index < array.length - 1 ; index++){  // Outer-loop will iterate 5 times in this case.
 
             for (int j = 0 ; j < array.length-index-1 ; j++ ){  // Inner-loop logic
 
