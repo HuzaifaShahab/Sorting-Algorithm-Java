@@ -10,7 +10,7 @@ public class InsertionAlgorithm {
                 array[j+1] = array[j] ;
                 j-- ;
             }
-            array[j+1] = sortedElement ;   // Sorted Part || Unsorted Part
+            array[j+1] = sortedElement ;   // Sorted Part || Unsorted Part.
         }
        for (int print : array ){             // Enhance foreach loop.
            System.out.print(print + "  ");
